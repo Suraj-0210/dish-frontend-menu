@@ -3,7 +3,7 @@ import styled from "styled-components";
 import SearchResult from "./components/SearchResult";
 import { IoMdCart } from "react-icons/io";
 
-export const BASE_URL = "https://dish-backend-h4as.onrender.com/";
+export const BASE_URL = "https://dish-backend-h4as.onrender.com";
 
 function App() {
   const [data, setData] = useState(null);
